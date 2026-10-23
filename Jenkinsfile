@@ -6,7 +6,7 @@ pipeline {
     AWS_DEFAULT_REGION    = 'us-east-1'
     AWS_ACCESS_KEY_ID     = 'test'
     AWS_SECRET_ACCESS_KEY = 'test'
-    PUSH_REG = '000000000000.dkr.ecr.us-east-1.localhost:5100'
+    PUSH_REG = 'localhost:5100'
     PULL_REG = 'host.minikube.internal:5100'
     K8S_SERVER = 'https://MINIKUBE_IP:8443'
   }
