@@ -8,7 +8,7 @@ pipeline {
     AWS_SECRET_ACCESS_KEY = 'test'
     PUSH_REG = 'localhost:5100'
     PULL_REG = 'host.minikube.internal:5100'
-    K8S_SERVER = 'https://MINIKUBE_IP:8443'
+    K8S_SERVER = 'https://192.168.58.2:8443'
   }
   stages {
     stage('Build') {
